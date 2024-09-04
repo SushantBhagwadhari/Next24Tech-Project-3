@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautify with CSS - E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <h1>Beautify with CSS</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#topics">Topics</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Course Topics and Video Section -->
+    <section id="course-content" class="course-content-section">
+        <div class="topics-list">
+            <ul>
+                <li><button class="topic-button" data-video="VIDEO_ID_1">Topic 1: Introduction</button></li>
+                <li><button class="topic-button" data-video="VIDEO_ID_2">Topic 2: Syntax</button></li>
+                <li><button class="topic-button" data-video="VIDEO_ID_3">Topic 3: Advanced Concepts</button></li>
+                <li><button class="topic-button" data-video="VIDEO_ID_4">Topic 4: Conclusion</button></li>
+            </ul>
+        </div>
+        <div class="video-player">
+            <iframe
+                id="video"
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/VIDEO_ID_1" 
+                title="Video player" 
+                style="border: none;" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <footer id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-links">
+            <h4>Find us at Instagram: </h4>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">(Insert Insta ID)</a>
+            <br>
+            <h4>Connect with us on Facebook: </h4>
+            <a href="https://www.facebook.com/yourpage" target="_blank">(Insert Facebook Name)</a>
+            <br>
+            <h4>Contact us through E-mail at our Mail address: </h4>
+            <a href="mailto:youremail@example.com">(mockmail@123mail.com)</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
